@@ -21,8 +21,6 @@ File -> Build Settings -> Player Settings
 <img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/BuildVersions.png"  />
 4. Also make sure that any dll files in the project have x86 checked under Inspector -> Platform Settings
 
-# License
-
 
 ## Author
 [SarthakJag](https://github.com/SarthakJag)
