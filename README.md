@@ -14,11 +14,11 @@
 ## Few things to note before building the project:
 1. Make sure the configuration settings are as shown below. You can access them by going to
 File -> Build Settings -> Player Settings
-<img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/ConfigurationSettings.png" width="700" height="200" />
+<img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/ConfigurationSettings.png" />
 2. From File -> Build Settings, select Architecture as x86 from the drop down menu:
-<img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/BuildSettings.png" width="700" height="200" />
+<img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/BuildSettings.png" />
 3. It is advisable to run the standalone exe file from a seperate folder for eg: BuildVersions as shown below. You can do so by going to Build Settings, click Build -> Make a new folder and then save the build output in that location.
-<img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/BuildVersions.png" width="700" height="200" />
+<img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/BuildVersions.png"  />
 4. Also make sure that any dll files in the project have x86 checked under Inspector -> Platform Settings
 
 # License
