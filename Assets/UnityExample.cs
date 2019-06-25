@@ -101,6 +101,9 @@ public class UnityExample : MonoBehaviour
         string license = "";
 
         APIStatusText.text = "Creating device source . . . ";
+        if(key.Equals("") || license.Equals("")){
+            APIStatusText.text = "Please add your license details from the code.";
+        }
         var deviceSourceCreator = new DeviceSourcePortable(key, license);
         deviceSourceCreator.SetDebugOutputStream(TraceWriteline);
         DeviceSource = deviceSourceCreator.GetDataSource(SourceType.TRIGNO_RF);
@@ -108,6 +111,7 @@ public class UnityExample : MonoBehaviour
         DeviceSource.Key = key;
         DeviceSource.License = license;
         APIStatusText.text = "Loading data source . . . ";
+
         try
         {
             LoadDataSource(DeviceSource);
