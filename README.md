@@ -9,7 +9,7 @@
 ## Requirements
 1. Unity version 2019.1.5f1 or greater
 2. Latest Delsys API
-3. Trigno sensors and Base Station running on latest firmware 
+3. Trigno sensors and Base Station running on latest firmware. You can follow the guide from [here](http://data.delsys.com/DelsysServicePortal/api/web-examples/updating-firmware.html)
 
 ## Few things to note before building the project:
 1. Make sure you always have the latest DelsysAPI, you can download the latest API package from [here](http://data.delsys.com/DelsysServicePortal/api/index.html) (Skip to step 8 if you already have the latest API package)
