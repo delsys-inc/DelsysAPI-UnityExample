@@ -1,8 +1,8 @@
 # Delsys API RF integration with Unity
 
 ## Description of the Sample App using Delsys API in RF mode:
-1. When you run the app after building the project from Unity, click Scan. The app will then scan for Trigno Sensors and then connect to it. 
-2. Select the sensors by clicking "Select" button. 
+1. When you run the app after building the project from Unity, click Scan. The app will then scan for Trigno Sensors and connect to found devices. 
+2. Select sensors by clicking "Select" button. 
 3. Click "Start" to start data streaming and "Stop" to stop data streaming
 4. The app will save a csv file of the data collected during the run.
 
@@ -29,7 +29,7 @@ File -> Build Settings -> Player Settings
 <img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/ConfigurationSettings.png" />
 9. From File -> Build Settings, select Architecture as x86 from the drop down menu:
 <img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/BuildSettings.png" />
-10. It is advisable to run the standalone exe file from a seperate folder for eg: BuildVersions as shown below. You can do so by going to Build Settings, click Build -> Make a new folder and then save the build output in that location.
+10. It is advisable to run the standalone exe file from a separate folder for eg: BuildVersions as shown below. You can do so by going to Build Settings, click Build -> Make a new folder and then save the build output in that location.
 <img src="https://github.com/delsys-inc/DelsysAPIUnityIntegration/blob/master/Screenshots/BuildVersions.png"  />
 11. Also make sure that any dll files in the project have x86 checked under Inspector -> Platform Settings
 
