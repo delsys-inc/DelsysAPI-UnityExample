@@ -8,8 +8,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
-    UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -21,7 +19,7 @@ ScriptsOnlyBuild:
     com.unity.multiplayer-hlapi.Runtime.dll:
     - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
-    Assets/Scenes/SampleScene - Copy.unity:
+    Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -855,5 +853,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 5
   scenePathNames:
-  - Assets/Scenes/SampleScene - Copy.unity
-  playerPath: C:/Sarthak/GITHUB PROJECTS/DelsysAPIUnityIntegration/BuildVersions/DelsysAPIUnityIntegration.exe
+  - Assets/Scenes/SampleScene.unity
+  playerPath: C:/Sarthak/GITHUB PROJECTS/DelsysAPI-UnityExample/BuildVersions/DelsysAPI-UnityExample.exe
