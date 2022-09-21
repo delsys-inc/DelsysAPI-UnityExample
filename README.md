@@ -1,3 +1,7 @@
+** This Repository is Outdated ** Visit [Delsys Example Applications](https://github.com/delsys-inc/Example-Applications) Repository for up-to-date examples
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Delsys API RF integration with Unity
 
 ## Description of the Sample App using Delsys API in RF mode:
